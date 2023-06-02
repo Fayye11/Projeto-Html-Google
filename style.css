@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+}
+header a {
+    color: rgba(0,0,0,0.87);
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+
+}
+input {
+    border: none;
+    margin-left: 20px;
+    outline: none;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 380px;
+}
+button {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 15px;
+    padding: 10px 16px 10px 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 10px;
+}
+div {
+    display: block;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+}
+.section_main {
+    display: flex;
+    flex-direction: column;
+}
+.acess {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.image_section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.text-input {
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    display: flex;
+    width: 482px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    font-size: 15px;
+}
+.text_header {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.photo {
+    border-radius:50%;
+    margin-right: 10px;
+} 
+a {
+    text-decoration: none;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_header {
+    border-top: 1px solid #e4e4e4;
+    line-height: 30px;
+}
+.footer_header span {
+    padding: 5px;
+    float: left;
+    margin-left: 30px;
+}
+.btn{
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+}
+.esquerda {
+    float: left;
+}
+.esquerda a, .direita a{
+    color: rgba(0,0,0,.54);
+    margin-left: 30px;
+    font-size: 12px;
+}
+.direita {
+    margin-right: 30px;
+    float: right;
+}
